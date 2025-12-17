@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Smithsonian Art Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">🏛️ Smithsonian Art Store</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link active">Shop</a>
+            </nav>
+            <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+        </div>
+    </header>
+    <main class="shop-main">
+        <div class="container">
+            <h1>Art Collection</h1>
+            <div class="shop-controls">
+                <input type="text" id="search-input" placeholder="Search artworks...">
+                <select id="category-filter">
+                    <option value="">All</option>
+                    <option value="painting">Paintings</option>
+                    <option value="photograph">Photos</option>
+                </select>
+            </div>
+            <div class="product-grid" id="product-grid">
+                <div class="loading">Loading...</div>
+            </div>
+            <button id="load-more" class="btn btn-secondary" style="display:none;">Load More</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>© 2025 Smithsonian Art Store Demo</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

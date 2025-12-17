@@ -2,18 +2,18 @@
 
 A demo e-commerce site showcasing artwork from the Smithsonian Open Access API.
 
+## Features
+
+- Browse artwork from the Smithsonian collection
+- Dynamic product pages with size and frame options
+- Responsive design for all devices
+- Shopping cart functionality
+
 ## Live Demo
 
 [View Live Site](https://artmusuem.github.io/smithsonian-art-store/)
 
-## Features
-
-- Browse artwork from the Smithsonian collection
-- Dynamic product pages with size and frame options  
-- Responsive design for all devices
-- Shopping cart functionality
-
-## Tech Stack
+## Technical Stack
 
 - Vanilla HTML/CSS/JavaScript
 - Smithsonian Open Access API

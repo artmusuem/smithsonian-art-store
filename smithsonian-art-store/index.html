@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smithsonian Art Store | Museum Quality Prints</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">🏛️ Smithsonian Art Store</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+            </nav>
+            <div class="cart-icon">🛒 <span id="cart-count">0</span></div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Museum Quality Art Prints</h1>
+                <p>Discover masterpieces from the Smithsonian's Open Access collection.</p>
+                <a href="shop.html" class="btn btn-primary">Browse Collection</a>
+            </div>
+        </section>
+        <section class="featured">
+            <div class="container">
+                <h2>Featured Artworks</h2>
+                <div class="product-grid" id="featured-grid">
+                    <div class="loading">Loading artworks...</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2025 Smithsonian Art Store Demo | Powered by Smithsonian Open Access API</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
